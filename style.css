@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #f8f8f8;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5f9e5f;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9e5f;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border:1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+#divider {
+    color: #F44336;
+    border: 3px solid #F44336;
+}
+
+#image:hover {
+    position: relative;
+    left: 50px;
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#flash {  
+    width: 428px; /**video size 428 x 240**/  
+    height: 270px; /** +30px **/  
+    padding-top: 30px;  
+    background:#000 url(flash_frame_image.jpg) no-repeat;  
+    text-align: center;  
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #2ec19f;
+    text-align: center;
+    display: inline-block;
+}
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .3s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 265px;
+    }
+    
+    .box:hover .overlay {
+    opacity: 1;
+    }
